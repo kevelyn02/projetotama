@@ -1,7 +1,7 @@
 //codigo retirado do github: https://github.com/fmoreirati/tamagoshi.git
 var nome = "";
-var saude = 50;
-var fome = 50;
+var saude = 100;
+var fome = 100;
 var tempo = 0;
 
 setInterval(display, 60000);//1000 = 1seg
@@ -27,7 +27,9 @@ function comer(valor) {
 }
 
 function remedio(valor) {
-
+    if (doente > 100) {
+        doente = doente + valor
+    }
 }
 
 function imagem() {
