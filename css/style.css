@@ -29,10 +29,10 @@
 .full{width: 100%;}
 
 /*Cores*/
-.bg-dark{ background-color: #222;}
-.dark{ color: #222;}
-.bg-light{ background-color: #ddd;}
-.light{ color: #ddd;}
+.bg-dark{ background-color:	#00FFFF;}
+.dark{ color:	#000000;}
+.bg-light{ background-color:		#00FFFF;}
+.light{ color: 		#000000;}
 
 /*Base*/
 header, footer{
