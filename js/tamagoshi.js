@@ -12,7 +12,7 @@ function display() {
     document.getElementById("tempo").innerHTML = "Tempo: " + tempo
     document.getElementById("saude").innerHTML = "Saude: " + saude
     document.getElementById("fome").innerHTML = "Fome: " + fome
-    document.getElementById("humor").innerHTML = "humor: " + humor()
+    document.getElementById("humor").innerHTML = "Humor: " + humor()
     imagem();
 }
 
