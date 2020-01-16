@@ -37,8 +37,8 @@ function comer(valor) {
 }
 
 function remedio(valor) {
-    if (doente < 100) {
-        saude = saude + 10
+    if (saude < 100) {
+        saude = saude + valor
     }
 }
 
