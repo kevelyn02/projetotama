@@ -18,7 +18,7 @@ function display() {
 }
 
 function humor() {
-    return (fome + saude) / 2;
+    return (fome + saude) /2;
 }
 
 function dano() {
