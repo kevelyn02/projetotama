@@ -39,7 +39,7 @@ function comer(valor) {
 function remedio(valor) {
     if (doente < 100) {
         doente = doente +10
-    }
+}
 }
 
 function imagem() {
