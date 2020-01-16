@@ -4,7 +4,7 @@ var saude = 100;
 var fome = 100;
 var tempo = 0;
 
-setInterval(display, 1000); //1000 = 1seg
+setInterval(display, 2000); //1000 = 1seg
 display()
 
 function display() {
@@ -37,8 +37,8 @@ function comer(valor) {
 }
 
 function remedio(valor) {
-    if (d < 100) {
-        doente = doente + 10
+    if (saude < 100) {
+        saude = saude + valor
     }
 }
 

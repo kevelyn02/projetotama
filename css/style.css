@@ -1,9 +1,6 @@
 /*Padroes*/
+*{margin: 1; padding: 1;}
 
-* {
-    margin: 0;
-    padding: 0;
-}
 
 .container {
     width: 100%;
