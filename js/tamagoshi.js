@@ -31,14 +31,14 @@ function dano() {
 }
 
 function comer(valor) {
-    if (fome > 100) {
-        fome = fome + valor
+    if (fome < 100) {
+        fome = fome +10
     }
 }
 
 function remedio(valor) {
-    if (doente > 100) {
-        doente = doente + valor
+    if (doente < 100) {
+        doente = doente +10
     }
 }
 
