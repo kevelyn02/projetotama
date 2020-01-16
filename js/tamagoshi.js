@@ -9,7 +9,7 @@ display()
 
 function display() {
     tempo++ //tempo = tempo + 1
-    if (tempo >= 4) dano()
+    if (tempo >= 3) dano()
     document.getElementById("tempo").innerHTML = "Tempo: " + tempo
     document.getElementById("saude").innerHTML = "Saude: " + saude
     document.getElementById("fome").innerHTML = "Fome: " + fome
@@ -46,15 +46,15 @@ function imagem() {
     let img = "t01.gif";
     if (saude == 0 || fome == 0)
         img = "t07.gif";
-    else if (tempo <= 4)
+    else if (tempo <= 3)
         img = "t01.gif";
-    else if (tempo <= 8)
+    else if (tempo <= 6)
         img = "t02.gif";
-    else if (tempo <= 16)
+    else if (tempo <= 9)
         img = "t03.gif";
-    else if (tempo <= 32)
+    else if (tempo <= 12)
         img = "t05.gif";
-    else if (tempo <= 64)
+    else if (tempo <= 18)
         img = "t06.gif";
 
     document.getElementById("foto").src = "img/" + img;
