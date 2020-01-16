@@ -1,6 +1,9 @@
 /*Padroes*/
 
-*{margin: 1; padding: 1;}
+* {
+    margin: 1;
+    padding: 1;
+}
 
 .container {
     width: 100%;
@@ -34,43 +37,32 @@
 
 .col-2 {
     width: 16.666;
-
     float: center;
-
 }
 
 .col-3 {
     width: 33.333%;
-
     float: center;
-
 }
 
 .col-4 {
     width: 25%;
-
     float: center;
-
 }
 
 .col-6 {
     width: 50%;
     float: center;
-
 }
 
 .col-8 {
     width: 66.666%;
-
     float: center;
-
 }
 
 .col-12 {
     width: 100%;
-
     float: center;
-
 }
 
 .full {
@@ -108,5 +100,4 @@ footer {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12pt;
-
 }
