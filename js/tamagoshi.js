@@ -4,11 +4,12 @@ var saude = 100;
 var fome = 100;
 var tempo = 0;
 
-setInterval(display, 60000);//1000 = 1seg
+setInterval(display, 1000); //1000 = 1seg
 display()
 
 function display() {
     tempo++ //tempo = tempo + 1
+    if (tempo >= 4) dano()
     document.getElementById("tempo").innerHTML = "Tempo: " + tempo
     document.getElementById("saude").innerHTML = "Saude: " + saude
     document.getElementById("fome").innerHTML = "Fome: " + fome
@@ -18,6 +19,15 @@ function display() {
 
 function humor() {
     return (fome + saude) / 2;
+}
+
+function dano() {
+    if (fome > 0) {
+        fome = fome - 1
+    }
+    if (saude > 0) {
+        saude = saude - 1
+    }
 }
 
 function comer(valor) {
